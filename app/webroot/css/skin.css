@@ -48,7 +48,9 @@ a:hover {
 }
 
 .list_answers_unanswered {
-	background-color:#CC3333;
+	background-color:#99CC33;
+	border-radius: 5px;
+	width: 53px;
 	color:#FFFFFF;
 }
 
