@@ -77,7 +77,7 @@
                         ?>
                     </li>
                 <?php } ?>
-                <li>
+<!--                 <li>
                     <a href='#'><?php __('change language'); ?></a>
                     <ul>
                         <li><?=$html->link(__('english',true),'/lang/eng')?></li>
@@ -85,7 +85,7 @@
                         <li><?=$html->link(__('french',true),'/lang/fre')?></li>
                         <li><?=$html->link(__('chinese',true),'/lang/chi')?></li>
                     </ul>
-                </li>
+                </li> -->
                 <?php if($session->check('Auth.User.id') && $session->read('Auth.User.permission') != '') { ?>
                     <li>
                         <?=$html->link(
