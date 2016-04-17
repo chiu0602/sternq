@@ -149,23 +149,24 @@
     <div class="wrapper">
         <a href="<?=$this->webroot; ?>"><?php echo $html->image('logo.png', array('alt' => 'Logo', 'id' => 'logo')); ?></a>
 
-        <ul class="tabs">
-            <li>
-                <?=$html->link(__('Questions',true),'/');?>
-            </li>
-            <li><?=$html->link(__('Tags',true),'/tags');?></li>
-            <li><?=$html->link(__('Unsolved',true),'/questions/unanswered');?></li>
-            <li><?=$html->link(__('Users',true),'/users');?></li>
-        </ul>
-        <ul class="tabs" style="float: right;">
+        <ul class="htabs">
             <li>
                 <?=$html->link(
-                    __('Ask a question',true),
+                    __('Ask',true),
                     array('controller' => 'posts', 'action' => 'ask')
                 );
                 ?>
             </li>
+            <!--<li>
+                <?=$html->link(__('Questions',true),'/');?>
+            </li>-->
+            <li><?=$html->link(__('Tags',true),'/tags');?></li>
+            <li><?=$html->link(__('Unsolved',true),'/questions/unanswered');?></li>
+            <li><?=$html->link(__('Users',true),'/users');?></li>
         </ul>
+        <!--<ul class="tabs" style="float: right;">
+            
+        </ul>-->
     </div>
 
 </div>

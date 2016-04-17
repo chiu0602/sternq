@@ -17,12 +17,17 @@ a:hover {
 /* -------------------------------------------------------------- 
   Header Elements 
 -------------------------------------------------------------- */
-#header { border-bottom: 1px solid #ddd;}
+#header { border-bottom: 1px solid #ddd; padding-bottom: 5px;}
 #header .top_actions { background-color: #efefef; float: right; display: inline;}
 #header .tabs {}
 #header .tabs li {}
 #header .tabs a { font-weight: bold; background: #555; color: #fff; text-decoration: none; }
 #header .tabs a:hover {background-color: #ff2800;}
+
+#header .htabs { padding-top: 5px;}
+#header .htabs li { list-style: none; display: inline; float: left; padding-left: 25px;}
+#header .htabs a { font-weight: bold; color: #855aa4; text-decoration: none; font-size: 23pt;}
+#header .htabs a:hover {text-decoration: underline; text-decoration-color: #855aa4;}
 
 #admin_header { border-bottom: 1px solid #ddd; }
 #admin_header .tabs {}
